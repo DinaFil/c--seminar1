@@ -2,15 +2,17 @@
 int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Пожалуйста, введите число2 ");
 int number2 = Convert.ToInt32(Console.ReadLine());
+bool Answer = true;
 if(number1*number1 == number2)
 {
-Console.WriteLine("Да!"); 
+Answer = true; 
 } 
 else 
 {
-    Console.WriteLine("Нет!");
+    Answer = false;
 }
 
+Console.WriteLine(Answer);git
 
 
 
