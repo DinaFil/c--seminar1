@@ -12,7 +12,7 @@ else
     Answer = false;
 }
 
-Console.WriteLine(Answer);git
+Console.WriteLine(Answer);
 
 
 
